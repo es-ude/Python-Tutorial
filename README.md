@@ -15,8 +15,8 @@ Repository to test binder and provide a simple base to provide own Environments.
 ### Create Binder Container
 
 > [!NOTE]
-> Memory: 1GB to 2GB
-> Parallel Users: 100 per Repository
+> - Max. Memory: 1GB to 2GB
+> - Max. Parallel Users: 100 per Repository
 
 1. Create a **public** repository.
 2. Add the required configuration files:
