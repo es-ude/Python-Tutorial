@@ -1,7 +1,7 @@
 [project]
-name = "test-binder"
+name = "Python_Basic_Tutorial"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python Tuttorial for Developer. Provides basic knowledge of Python, Jupyter, and Matplotlib to master our machine learning course."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -18,6 +18,10 @@ dependencies = [
 ]
 
 [dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "pynvim>=0.5.2",
+]
 local = [
     "jupyter>=1.1.1",
 ]
